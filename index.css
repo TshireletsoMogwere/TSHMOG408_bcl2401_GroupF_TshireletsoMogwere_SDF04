@@ -32,3 +32,28 @@ button {
     border-radius: 10px;
     margin: 10px;
 }
+
+   /* Additional CSS for responsive design */
+   body, html {
+    height: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+h1 {
+    font-size: 2rem;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}

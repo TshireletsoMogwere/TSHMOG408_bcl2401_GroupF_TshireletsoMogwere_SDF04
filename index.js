@@ -70,4 +70,6 @@ function newCard() {
     }
 }
 
+
+
 // I found coding with javascript difficult. It took long for me to understand certain things like creating functions and syntax. My cards also drew with decimal numbers and it took me a whole day to figure out my mistakes. I also struggled with understanding the idea of black jack game but I ended up downloading the game application and the moment I understood the rules of the game it became easier for me to know and understand what is required of me in the project. Overall I enjoyed the challenges I faced and loved how I overcame them.
