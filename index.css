@@ -1,59 +1,79 @@
-body {
-     background-image: url("images/blackjack.jpg");
-     background-size: cover;
-     color: white;
-     font-weight: bolder;
-     text-align: right;
-     margin-right: 60px;
-     font-size: 25px;
-     
-     
-     
-     
-}
-
-h1 {
-   color: burlywood;
-}
-
-#message-el {
+body{
+    background-image: url(https://images.unsplash.com/photo-1565739424659-043ba492dd73?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2MTI2MDR8&ixlib=rb-4.0.3&q=85);
+  }
+  h1 {
+    text-align: center;
     font-style: italic;
-    
-}
-
-button {
-    color: white;
-    width: 100px;
-    background: burlywood;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-   /* Additional CSS for responsive design */
-   body, html {
-    height: 100%;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-h1 {
-    font-size: 2rem;
-}
-.button-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 1.5rem;
+    color: beige;
+  }
+  button {
+    margin: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-family: Open Sans;
+    font-weight: 1000;
+    background: transparent;
+    display: inline-block;
+  }
+  
+  .button-1 {
+    width: 250px;
+    height: 60px;
+    padding: 10px 25px;
+    cursor: arrow;
+    background: radial-gradient(hotpink 20%, wheat 80%);
+    border: 5px dotted #EC407A;
+     text-shadow: 0 0 10px #FF4081;
+  }
+  
+    .button-1:hover {
+     background: radial-gradient(plum 20%, orange 80%);
+  }
+  
+  
+  .button-2 {
+    width: 250px;
+    height: 60px;
+    padding: 20px;
+    cursor: pointer;
+    background: rgba(199, 150, 235);
+    background: linear-gradient(to right,red,blue,indigo,violet );
+    border: thin white;
     }
-}
+  .button-2:hover {
+     background: rgba(171, 237, 204);
+     background: linear-gradient( red,bisque,blue,indigo,lightgoldenrodyellow,violet);
+  }
+  
+  .button-3{
+    width: 250px;
+    height: 60px;
+    padding: 20px;
+    cursor: pointer;
+   background:#EF9A9A;
+    border: solid white;
+  }
+    .button-3:hover {
+      background: rgb(199, 150, 235);
+     background: angle-gradient(circle violet);
+      animation: zoomInAnimation 2s ease;
+  
+  }
+  
+  @keyframes zoomInAnimation {
+    from {
+      transform: scale(0.5)
+    }
+    to{
+      transform: scale(1)
+    }
+    /*I chose 3 buttons for my project and used a rainbow color theme to show my creativity in being able to use both colors from Codespace pen "asset" and defining them on my own again. I used a keyframe for my ZoomInAnimation. I did not really face any challenges as I was understanding my codings so I enjoyed working on my buttons a lot.*/
+}  
+      
+      
+      
+      
+      
+     
